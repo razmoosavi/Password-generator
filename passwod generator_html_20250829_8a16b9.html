@@ -111,7 +111,7 @@
         
         document.getElementById('copy').addEventListener('click', function() {
             const password = document.getElementById('password').textContent;
-            if(password && password !== 'پسورد شما اینجا نمایش داده می‌شود') {
+            if(password && password !== 'پسورد شما') {
                 navigator.clipboard.writeText(password).then(function() {
                     alert('پسورد با موفقیت کپی شد!');
                 }, function() {
